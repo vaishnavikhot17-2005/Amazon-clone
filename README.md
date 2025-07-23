@@ -1,5 +1,5 @@
 # Amazon-UI-clone
-This project is a static user interface clone of Amazon, built using HTML and CSS. It replicates the look and feel of the Amazon homepage, product pages, and other essential elements of the Amazon website without any backend functionality. This clone focuses purely on front-end design and layout.
+This project is a static user interface clone of Amazon, built using HTML and CSS. It replicates the look and feel of the Amazon homepage, product pages, and other essential elements of the Amazon website without any backend functionality. This clone focuses purely on front-end design and layout.<br/>
 Author:Vaishnavi khot
 # Discription:
 Features;
