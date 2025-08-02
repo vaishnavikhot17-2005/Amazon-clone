@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+
+}
+
+body {
+  width: 100%;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #242f3a;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.navlogo {
+  width: 100px;
+  height: 50px;
+}
+
+.logo {
+  background-image: url("amazon.webp");
+  background-size: cover;
+  background-position: center;
+  height: 50px;
+  width: 100%;
+   filter: brightness(0) invert(1);
+}
+
+.border {
+  border: 1px solid transparent;
+  padding: 4px;
+}
+.location-icon{
+  color :whitesmoke;
+}
+.nav-Deliver{
+  color: whitesmoke;
+}
+
+.border:hover {
+  border-color: white;
+}
+
+/* Search */
+.nav-search {
+  display: flex;
+  height: 40px;
+  flex-grow: 1;
+  hover: border 1px;
+}
+
+.nav-all {
+  background-color: #999;
+  width: 50px;
+}
+
+.nav-text {
+  flex-grow: 1;
+  font-size: 1rem;
+  padding: 0 10px;
+}
+.nav-return border,.span{
+  color: whitesmoke;
+}
+
+.nav-icon {
+  background-color: #e3a812;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: white;
+}
+
+.nav-icon:hover {
+  background-color: #ffd56c;
+}
+
+/* Language and Account */
+.nav-language .nav-option,
+.nav-sign span,
+.nav-account,
+.nav-orders,
+.nav-Cart 
+{
+color: white;
+}
+.nav-language {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  color: white;
+}
+
+.nav-option {
+  background-color: #242f3a;
+  color: white;
+  border: none;
+  padding: 6px 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+.nav-option option {
+  background-color: white;
+  color: black;
+}
+
+
+.nav-account {
+  font-weight: bold;
+}
+
+/* Panel */
+.nav-panel {
+  background-color: #031c35;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  gap: 10px;
+}
+
+.nav-panel > div {
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* Hero Section */
+.nav-finalanother {
+  background-image: url("background\ image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 510px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.nav-chevron-left,
+.nav-chevron-right {
+  color: white;
+  cursor: pointer;
+}
+
+.nav-description {
+  background-color: aliceblue;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+/* Shop Section */
+.shop-section {
+  display: flex;
+  gap: 20px;
+  background-color: #99bdbe;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.box {
+  background-color: whitesmoke;
+  width: 35%;
+  padding: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  min-width: 250px;
+  box-sizing: border-box;
+}
+
+.box1-content,
+.box2-content {
+  padding: 10px;
+  text-align: center;
+}
+
+.box-para {
+  color: #333;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .shop-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .nav-finalanother,
+  .nav-bpic {
+    height: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar,
+  .nav-panel {
+    flex-direction: column;
+    height: auto;
+    gap: 5px;
+  }
+  .nav-search {
+    flex-direction: column;
+    height: auto;
+  }
+  .nav-finalanother,
+  .nav-bpic {
+    height: 150px;
+  }
+}
